@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+@media screen and (min-width: 769px) {
+  @keyframes HTMLAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(320px * 0.9);
+    }
+  }
+
+  @keyframes CSSAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(320px * 0.9);
+    }
+  }
+  @keyframes ReactAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(320px * 0.6);
+    }
+  }
+  @keyframes JSAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(320px * 0.7);
+    }
+  }
+
+  @keyframes JavaAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(320px * 0.7);
+    }
+  }
+  @keyframes FlutterAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(320px * 0.55);
+    }
+  }
+}
+
+.HTML {
+  animation: HTMLAnimation 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 768px) {
+  @keyframes HTMLAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(260px * 0.9);
+    }
+  }
+
+  @keyframes CSSAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(260px * 0.9);
+    }
+  }
+  @keyframes ReactAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(260px * 0.6);
+    }
+  }
+  @keyframes JSAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(260px * 0.7);
+    }
+  }
+
+  @keyframes JavaAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(260px * 0.7);
+    }
+  }
+  @keyframes FlutterAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(260px * 0.55);
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  @keyframes HTMLAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(150px * 0.9);
+    }
+  }
+
+  @keyframes CSSAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(150px * 0.9);
+    }
+  }
+  @keyframes ReactAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(150px * 0.6);
+    }
+  }
+  @keyframes JSAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(150px * 0.7);
+    }
+  }
+
+  @keyframes JavaAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(150px * 0.7);
+    }
+  }
+  @keyframes FlutterAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(150px * 0.55);
+    }
+  }
+}
+
+.HTML {
+  animation: HTMLAnimation 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.CSS {
+  animation: CSSAnimation 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.React {
+  animation: ReactAnimation 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.JS {
+  animation: JSAnimation 1.5s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.Java {
+  animation: JavaAnimation 1.5s forwards;
+  animation-delay: 0.4s;
+}
+
+.Flutter {
+  animation: FlutterAnimation 1.5s forwards;
+  animation-delay: 0.4s;
+}
