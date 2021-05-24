@@ -10,6 +10,7 @@ export const IntroContainer = styled.div`
   align-items: center;
   height: 100vh;
   justify-content: center;
+  background-color: cyan;
 `;
 
 export const IntroH1 = styled.h1`
@@ -17,6 +18,7 @@ export const IntroH1 = styled.h1`
   font-size: 40px;
   text-align: center;
   font-family: "Rubik", sans-serif;
+  background-color: lightblue;
 
   @media screen and (max-width: 768px) {
     font-size: 32px;
@@ -28,6 +30,7 @@ export const IntroH1 = styled.h1`
 
 export const IntroSpan = styled.span`
   color: #00b793;
+  background-color: lightcoral;
 `;
 
 export const IntroP = styled.p`
@@ -37,6 +40,7 @@ export const IntroP = styled.p`
   text-align: center;
   max-width: 600px;
   font-family: "Ubuntu", sans-serif;
+  background-color: lightblue;
 
   @media screen and (max-width: 768px) {
     font-size: 20px;
@@ -51,17 +55,21 @@ export const IntroBtnWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: lightcoral;
 `;
 export const ArrowDown = styled(IoIosArrowDown)`
   margin-left: 4px;
   font-size: 18px;
+  background-color: lightgreen;
 `;
 export const ArrowDownward = styled(MdArrowDownward)`
   margin-left: 4px;
   font-size: 18px;
+  background-color: lightgreen;
 `;
 
 export const ImgWrapper = styled.div`
   position: relative;
   top: 150px;
+  background-color: lightseagreen;
 `;
