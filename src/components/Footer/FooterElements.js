@@ -22,6 +22,7 @@ export const FooterBox = styled.div`
   align-items: center;
   height: 150px;
   background-color: #141c3a;
+
   color: #fff;
   width: 600px;
   border-radius: 20px;
@@ -31,7 +32,7 @@ export const FooterBox = styled.div`
     width: 500px;
   }
   @media ${device.mobileL} {
-    width: 350px;
+    width: 330px;
   }
 `;
 export const FooterH1 = styled.h1`
@@ -44,6 +45,7 @@ export const FooterH1 = styled.h1`
   }
   @media ${device.mobileL} {
     font-size: 1.3rem;
+    top: 30px;
   }
 `;
 export const FooterButton = styled(Link)`
@@ -72,6 +74,7 @@ export const FooterButton = styled(Link)`
   }
   @media ${device.mobileL} {
     font-size: 1.1rem;
+    bottom: 35px;
   }
 `;
 export const FooterQuote = styled.div`
@@ -100,6 +103,7 @@ export const FooterFooter = styled.div`
   }
   @media ${device.mobileL} {
     font-size: 0.65rem;
+    bottom: -30px;
   }
 `;
 export const Footerimg = styled.a`
@@ -144,6 +148,10 @@ export const FooterLast = styled.div`
   font-weight: bold;
   color: #9e85b7;
   font-family: "Rubik", sans-serif;
+
+  @media ${device.mobileL} {
+    bottom: -50px;
+  }
 `;
 export const LastSpan = styled.span`
   font-weight: bold;

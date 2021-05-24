@@ -43,7 +43,7 @@ const Projects = () => {
             <ProjectInfo>
               <ProjectH1>Old Portfolio</ProjectH1>
               <ProjectP> HTML / CSS </ProjectP>
-              <ProjectButton>
+              <ProjectButton href="https://demooldportfolio.netlify.app/">
                 {" "}
                 View project <IoIosArrowForward />{" "}
               </ProjectButton>
@@ -55,7 +55,7 @@ const Projects = () => {
             <ProjectInfo>
               <ProjectH1>AnimalGame</ProjectH1>
               <ProjectP> HTML / CSS / JS</ProjectP>
-              <ProjectButton>
+              <ProjectButton href="https://demoanimalgame.netlify.app">
                 {" "}
                 View project <IoIosArrowForward />{" "}
               </ProjectButton>
@@ -67,7 +67,7 @@ const Projects = () => {
             <ProjectInfo>
               <ProjectH1>DriveThru Menu</ProjectH1>
               <ProjectP> HTML / CSS / JS</ProjectP>
-              <ProjectButton>
+              <ProjectButton href="https://logandrivethru.netlify.app">
                 {" "}
                 View project <IoIosArrowForward />{" "}
               </ProjectButton>
@@ -83,7 +83,7 @@ const Projects = () => {
             <ProjectInfo>
               <ProjectH1>World Time App</ProjectH1>
               <ProjectP> Flutter </ProjectP>
-              <ProjectButton>
+              <ProjectButton href="https://github.com/lgad31vn/WorldTimeApis">
                 {" "}
                 View project <IoIosArrowForward />{" "}
               </ProjectButton>
@@ -95,7 +95,7 @@ const Projects = () => {
             <ProjectInfo>
               <ProjectH1>Pizza Ordering</ProjectH1>
               <ProjectP> HTML / CSS / JS</ProjectP>
-              <ProjectButton>
+              <ProjectButton href="https://pizzaordering.netlify.app">
                 {" "}
                 View project <IoIosArrowForward />{" "}
               </ProjectButton>
@@ -107,7 +107,7 @@ const Projects = () => {
             <ProjectInfo>
               <ProjectH1>Store Management</ProjectH1>
               <ProjectP> Java </ProjectP>
-              <ProjectButton>
+              <ProjectButton href="https://github.com/lgad31vn/Java-II-midTerm-toyStore">
                 {" "}
                 View project <IoIosArrowForward />{" "}
               </ProjectButton>

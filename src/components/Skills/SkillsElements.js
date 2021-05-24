@@ -9,6 +9,13 @@ export const SkillsContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media ${device.tablet} {
+    height: 550px;
+  }
+  @media ${device.mobileL} {
+    height: 400px;
+  }
 `;
 export const SkillsWrapper = styled.div`
   z-index: 999;
@@ -17,31 +24,47 @@ export const SkillsWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #fff;
   padding: 80px 24px 100px;
   top: -100px;
   width: 850px;
   border-radius: 20px;
   border: 2px solid #e7edf7;
+  background-color: #fff;
+
   @media ${device.tablet} {
     width: 600px;
   }
   @media ${device.mobileL} {
     width: 350px;
+    height: 350px;
   }
 `;
 export const SkillsH1 = styled.h1`
   position: reletave;
   font-size: 36px;
   font-family: "Rubik", sans-serif;
+
+  @media ${device.mobileL} {
+    font-size: 1.8rem;
+  }
 `;
 export const SkillsRow = styled.div`
-  margin-top: 5%;
-  width: 80%;
+  margin-top: 40px;
+  width: 800px;
   font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media ${device.tablet} {
+    width: 500px;
+  }
+
+  @media ${device.mobileL} {
+    margin-top: 20px;
+    width: 300px;
+    height: 230px;
+  }
 `;
 export const SkillsImg = styled.div`
   position: relative;
@@ -53,6 +76,7 @@ export const SkillsImg = styled.div`
 
 export const DividerWrapper = styled.div`
   position: relative;
+
   @media ${device.tablet} {
     display: none;
   }
@@ -63,14 +87,20 @@ export const SkillsVertBar = styled.div`
   width: 3px;
   height: 200px;
   margin: 25px;
+
+  @media ${device.tablet} {
+    display: none;
+  }
 `;
 export const SkillsBarsWrapper = styled.div`
   position: relative;
+
   @media ${device.tablet} {
     width: 500px;
   }
   @media ${device.mobileL} {
-    width: 500px;
+    width: 200px;
+    height: 230px;
   }
 `;
 export const SkillsBar = styled.div`
@@ -85,7 +115,8 @@ export const SkillsBar = styled.div`
     width: 330px;
   }
   @media ${device.mobileL} {
-    width: 225px;
+    margin: 10px auto;
+    width: 200px;
   }
 `;
 export const SkillsBarHeadline = styled.div`
@@ -104,8 +135,8 @@ export const SkillsBarHeadline = styled.div`
     height: 28px;
   }
   @media ${device.mobileL} {
-    font-size: 0.8rem;
-    width: 60px;
+    font-size: 0.75rem;
+    width: 53px;
     height: 25px;
   }
 `;
@@ -139,6 +170,6 @@ export const SkillsBarPercent = styled.div`
     font-size: 15px;
   }
   @media ${device.mobileL} {
-    font-size: 13px;
+    font-size: 12px;
   }
 `;

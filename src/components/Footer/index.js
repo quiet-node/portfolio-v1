@@ -23,7 +23,7 @@ import {
 
 const Footer = () => {
   useEffect(() => {
-    Aos.init();
+    Aos.init({ duration: 1300 });
   }, []);
 
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +33,7 @@ const Footer = () => {
 
   return (
     <FooterContainer>
-      <FooterBox data-aos="zoom-in" data-delay="400">
+      <FooterBox data-aos="zoom-in" data-aos-delay="400">
         <FooterH1>Interested in talking more techy?</FooterH1>
         <FooterButton
           to="contact"
@@ -44,17 +44,25 @@ const Footer = () => {
           Start a conversation
         </FooterButton>
       </FooterBox>
-      <FooterQuote>
+      <FooterQuote data-aos="fade-down" data-aos-delay="400">
         "<FooterSpan>Gaining </FooterSpan> 1% better per day but{" "}
         <FooterSpan>persistently</FooterSpan> is really the most{" "}
         <FooterSpan>efficient</FooterSpan> process ever."
       </FooterQuote>
       <FooterFooter>
-        <Footerimg href="https://github.com/lgad31vn">
+        <Footerimg
+          data-aos="fade-up"
+          data-aos-delay="500"
+          href="https://github.com/lgad31vn"
+        >
           {" "}
           <img src={gethubIcon} alt="github" width="40px" height="40px"></img>
         </Footerimg>
-        <Footerimg href="https://www.linkedin.com/in/logannguyen98/">
+        <Footerimg
+          data-aos="fade-up"
+          data-aos-delay="550"
+          href="https://www.linkedin.com/in/logannguyen98/"
+        >
           <img
             src={linkedinIcon}
             alt="Linkedin"
@@ -62,17 +70,31 @@ const Footer = () => {
             height="40px"
           ></img>
         </Footerimg>
-        <Footerimg href="mailto: nnguyen6@oswego.edu">
+        <Footerimg
+          data-aos="fade-up"
+          data-aos-delay="600"
+          href="mailto: nnguyen6@oswego.edu"
+        >
           <img src={mailIcon} alt="mail" width="40px" height="40px"></img>
         </Footerimg>
-        <Footerimg href="https://twitter.com/lgad31vn">
+        <Footerimg
+          data-aos="fade-up"
+          data-aos-delay="650"
+          href="https://twitter.com/lgad31vn"
+        >
           <img src={twitterIcon} alt="Twitter" width="40px" height="40px"></img>{" "}
         </Footerimg>
       </FooterFooter>
-      <FooterToTop to="intro" smooth={true} duration={1000}>
+      <FooterToTop
+        data-aos="zoom-in"
+        data-aos-delay="400"
+        to="intro"
+        smooth={true}
+        duration={1000}
+      >
         <CgMoveUp />
       </FooterToTop>
-      <FooterLast>
+      <FooterLast data-aos="fade-up" data-aos-delay="400">
         NAM <LastSpan>(LOGAN)</LastSpan> NGUYEN @2021
       </FooterLast>
     </FooterContainer>

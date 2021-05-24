@@ -163,7 +163,7 @@ const Skills = ({ light, className }) => {
             <SkillsVertBar data-aos="fade-down" />
           </DividerWrapper>
 
-          <SkillsBarsWrapper data-aos="fade-left">
+          <SkillsBarsWrapper id="asd" data-aos="fade-left">
             <SkillsBar>
               <SkillsBarHeadline>HTML</SkillsBarHeadline>
               <SkillsBarProgress>

@@ -4,5 +4,5 @@
   padding: 0;
   font-family: "Encode Sans Expanded", sans-serif;
   transition: 0.5s all ease-out;
-  max-height: 10000px;
+  /* max-height: 10000px; */
 }

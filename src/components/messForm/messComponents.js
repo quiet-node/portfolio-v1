@@ -6,10 +6,6 @@ export const MessFormContainer = styled.form`
   justify-content: center;
   display: flex;
   align-items: center;
-
-  @media ${device.mobileL} {
-    width: 400px;
-  }
 `;
 export const MessFormContent = styled.div`
   display: flex;
@@ -22,6 +18,7 @@ export const MessFormH1 = styled.h1`
   font-size: 36px;
   font-family: "Rubik", sans-serif;
   color: #7510f7;
+
   @media ${device.tablet} {
     font-size: 33px;
   }
@@ -36,10 +33,6 @@ export const FormSection = styled.section`
   justify-content: center;
   height: 450px;
   margin-top: 50px;
-
-  @media ${device.mobileL} {
-    width: 200px;
-  }
 `;
 
 export const FormInput = styled.input`
@@ -54,7 +47,7 @@ export const FormInput = styled.input`
   color: #9e85b7;
 
   @media ${device.mobileL} {
-    width: 230px;
+    width: 250px;
   }
 `;
 export const FormTextArea = styled.textarea`
@@ -69,8 +62,9 @@ export const FormTextArea = styled.textarea`
   font-size: 16px;
   color: #9e85b7;
   outline: none;
+
   @media ${device.mobileL} {
-    width: 230px;
+    width: 250px;
   }
 `;
 export const FormButton = styled.button`

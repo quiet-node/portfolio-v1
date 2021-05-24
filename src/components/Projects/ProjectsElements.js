@@ -10,17 +10,19 @@ import { device } from "../DeviceSizes/DeviceSizes";
 export const ProjectsContainer = styled.div`
   z-index: 100;
   color: #fff;
-  background: #7510f7;
   position: relative;
   height: 1000px;
   margin-top: -190px;
+  display: flex;
+  flex-direction: column;
+
   @media ${device.tablet} {
-    display: flex;
-    flex-direction: column;
-    height: 1500px;
+    margin-top: -140px;
+    height: 1100px;
   }
   @media ${device.mobileL} {
-    height: 2000px;
+    margin-top: -200px;
+    height: 1850px;
   }
 `;
 export const ProjectsWrapper = styled.div`
@@ -31,15 +33,29 @@ export const ProjectsWrapper = styled.div`
   justify-content: center;
   align-items: center;
   background: #7510f7;
-  height: 100%;
+  height: 1000px;
+
+  @media ${device.tablet} {
+    height: 1100px;
+  }
+  @media ${device.mobileL} {
+    height: 1850px;
+  }
 `;
 export const ProjectsH1 = styled.h1`
   font-size: 36px;
   font-family: "Rubik", sans-serif;
+
+  @media ${device.tablet} {
+    font-size: 2rem;
+  }
+  @media ${device.mobileL} {
+    font-size: 1.8rem;
+  }
 `;
 export const ProjectsRow = styled.div`
-  margin-top: 5%;
-  width: 80%;
+  margin-top: 40px;
+  width: 910px;
   font-size: 20px;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -52,10 +68,13 @@ export const ProjectsRow = styled.div`
   @media ${device.tablet} {
     display: grid;
     grid-template-columns: auto auto;
+    width: 600px;
+    margin: 30px auto;
   }
   @media ${device.mobileL} {
     display: flex;
     flex-direction: column;
+    width: 300px;
   }
 `;
 export const ProjectInfo = styled.span`
@@ -71,7 +90,6 @@ export const ProjectInfo = styled.span`
   font-size: 18px;
   font-weight: bold;
   font-size: 1.5rem;
-  background-color: none;
   transition: opacity 0.7s;
   background-color: #fff;
 `;
@@ -89,7 +107,7 @@ export const ProjectP = styled.p`
   font-weight: normal;
   font-family: "Ubuntu", sans-serif;
 `;
-export const ProjectButton = styled.button`
+export const ProjectButton = styled.a`
   height: 30px;
   width: 110px;
   border-radius: 10px;
@@ -101,6 +119,8 @@ export const ProjectButton = styled.button`
   align-items: center;
   background-color: #fff;
   cursor: pointer;
+  font-size: 0.8rem;
+  text-decoration: none;
 
   &:hover {
     background-color: #7510f7;
