@@ -34,11 +34,7 @@ const Projects = () => {
         </ProjectsH1>
         <Divider data-aos="fade-left" data-offset="400" data-aos-delay="300" />
         <ProjectsRow>
-          <Project
-            data-aos="fade-right"
-            data-offset="1500"
-            data-aos-delay="300"
-          >
+          <Project data-aos="fade-up" data-offset="1500" data-aos-delay="300">
             <Project1Background></Project1Background>
             <ProjectInfo>
               <ProjectH1>Old Portfolio</ProjectH1>
@@ -50,7 +46,7 @@ const Projects = () => {
             </ProjectInfo>
           </Project>
 
-          <Project data-aos="fade-down" data-offset="1500" data-aos-delay="500">
+          <Project data-aos="fade-up" data-offset="1500" data-aos-delay="500">
             <Project2Background></Project2Background>
             <ProjectInfo>
               <ProjectH1>AnimalGame</ProjectH1>
@@ -62,7 +58,7 @@ const Projects = () => {
             </ProjectInfo>
           </Project>
 
-          <Project data-aos="fade-left" data-offset="1500" data-aos-delay="700">
+          <Project data-aos="fade-up" data-offset="1500" data-aos-delay="700">
             <Project3Background></Project3Background>
             <ProjectInfo>
               <ProjectH1>DriveThru Menu</ProjectH1>
@@ -74,11 +70,7 @@ const Projects = () => {
             </ProjectInfo>
           </Project>
 
-          <Project
-            data-aos="fade-right"
-            data-offset="1400"
-            data-aos-delay="400"
-          >
+          <Project data-aos="fade-up" data-offset="1400" data-aos-delay="400">
             <Project4Background></Project4Background>
             <ProjectInfo>
               <ProjectH1>World Time App</ProjectH1>
@@ -102,7 +94,7 @@ const Projects = () => {
             </ProjectInfo>
           </Project>
 
-          <Project data-aos="fade-left" data-offset="1400" data-aos-delay="800">
+          <Project data-aos="fade-up" data-offset="1400" data-aos-delay="800">
             <Project6Background></Project6Background>
             <ProjectInfo>
               <ProjectH1>Store Management</ProjectH1>
