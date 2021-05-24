@@ -81,7 +81,13 @@ const Contact = () => {
               required
             />
           </FormSection>
-          <FormButton data-aos="fade-up" data-aos-delay="700" type="submit">
+
+          <FormButton
+            data-aos="fade-up"
+            data-aos-delay="700"
+            data-aos-offset="100"
+            type="submit"
+          >
             Submit
           </FormButton>
         </MessFormContent>
