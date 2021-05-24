@@ -178,6 +178,8 @@ export const Project6Background = styled.div`
 export const Project = styled.div`
   height: 260px;
   width: 300px;
+  margin: 5px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;

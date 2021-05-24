@@ -85,7 +85,7 @@ const Contact = () => {
           <FormButton
             data-aos="fade-up"
             data-aos-delay="700"
-            data-aos-offset="100"
+            data-aos-offset="70"
             type="submit"
           >
             Submit
