@@ -47,10 +47,10 @@ const Contact = () => {
     <>
       <MessFormContainer id="contact" onSubmit={handleSubmit}>
         <MessFormContent>
-          <MessFormH1 data-aos="fade-left" data-aos-offset="600">
+          <MessFormH1 data-aos="fade-left" data-aos-offset="550">
             Contact.
           </MessFormH1>
-          <Divider data-aos="fade-right" data-aos-offset="600" light="true" />
+          <Divider data-aos="fade-right" data-aos-offset="550" light="true" />
           <FormSection>
             <FormInput
               data-aos="fade-up"
@@ -63,7 +63,7 @@ const Contact = () => {
             />
             <FormInput
               data-aos="fade-up"
-              data-aos-offset="400"
+              data-aos-offset="350"
               data-aos-delay="500"
               type="email"
               placeholder="Email"
@@ -81,7 +81,7 @@ const Contact = () => {
               required
             />
           </FormSection>
-          <FormButton data-aos="fade-up" data-aos-delay="750" type="submit">
+          <FormButton data-aos="fade-up" data-aos-delay="700" type="submit">
             Submit
           </FormButton>
         </MessFormContent>
