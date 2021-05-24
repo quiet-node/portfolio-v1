@@ -194,4 +194,9 @@ export const Project = styled.div`
       transform: scale(1.1);
     }
   }
+
+  @media ${device.mobileL} {
+    margin: 0;
+    border-radius: 0;
+  }
 `;
