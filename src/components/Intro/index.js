@@ -26,7 +26,7 @@ const Intro = () => {
   return (
     <IntroContainer id="intro">
       <IntroH1 data-aos="fade-down">
-        Hey! It's <IntroSpan>Logan</IntroSpan> ;)
+        Howdy! It's <IntroSpan>Logan</IntroSpan> ;)
       </IntroH1>
       <IntroP data-aos="fade-right" data-aos-delay="400">
         Senior Comp. Sci. Student at <IntroSpan>SUNY Oswego</IntroSpan>

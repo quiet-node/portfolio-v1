@@ -88,7 +88,7 @@ export const FooterQuote = styled.div`
     font-size: 1.3rem;
   }
   @media ${device.mobileL} {
-    font-size: 0.65rem;
+    font-size: 0.55rem;
   }
 `;
 export const FooterFooter = styled.div`
