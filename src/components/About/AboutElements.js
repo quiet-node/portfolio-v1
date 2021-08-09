@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { device } from "../DeviceSizes/DeviceSizes";
+import styled from 'styled-components';
+import { device } from '../DeviceSizes/DeviceSizes';
 
 export const AboutContainer = styled.div`
   z-index: 3;
@@ -21,7 +21,7 @@ export const AboutText = styled.div`
 export const AboutH1 = styled.h1`
   position: reletave;
   font-size: 36px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   @media ${device.tablet} {
     font-size: 33px;
   }
@@ -37,7 +37,7 @@ export const AboutP = styled.p`
   font-size: 20px;
   line-height: 30px;
   max-width: 600px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
 
   @media ${device.tablet} {
@@ -51,7 +51,7 @@ export const AboutP = styled.p`
 `;
 
 export const AboutSpan = styled.span`
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
 
   @media ${device.tablet} {
