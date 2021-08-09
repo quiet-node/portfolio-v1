@@ -11,6 +11,8 @@ Tech I've used in this project:
   > ReactJS/React icons
 
   > React hooks
+
+  > Firebase
  
   > Styled Component
 
