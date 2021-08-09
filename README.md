@@ -1,4 +1,4 @@
-Personal Portfolio ⚡️
+                                                          ⚡️ Personal Portfolio ⚡️
 
 A clean, beautiful, responsive portfolio that I have made during this summer 2021 using ReactJS and Styled Components! 
 
