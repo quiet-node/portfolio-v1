@@ -34,7 +34,7 @@ const Projects = () => {
         </ProjectsH1>
         <Divider data-aos='fade-left' data-offset='400' data-aos-delay='300' />
         <ProjectsRow>
-          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='800'>
+          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='300'>
             <Project6Background></Project6Background>
             <ProjectInfo>
               <ProjectH1>Dev Meet Up</ProjectH1>
@@ -64,7 +64,7 @@ const Projects = () => {
             </ProjectInfo>
           </Project>
 
-          <Project data-aos='fade-up' data-offset='1500' data-aos-delay='300'>
+          <Project data-aos='fade-up' data-offset='1500' data-aos-delay='500'>
             <Project1Background></Project1Background>
             <ProjectInfo>
               <ProjectH1>Old Portfolio</ProjectH1>
