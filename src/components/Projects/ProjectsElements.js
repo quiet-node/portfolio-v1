@@ -1,11 +1,11 @@
-import styled from "styled-components";
-import portfolioImg from "../../images/Projects/Portfolio2.PNG";
-import animalGame from "../../images/Projects/AnimalGame.PNG";
-import driveThru from "../../images/Projects/DriveThru.PNG";
-import worldTime from "../../images/Projects/WorldTime.PNG";
-import pizzaOrder from "../../images/Projects/PizzaOrder.PNG";
-import toyStore from "../../images/Projects/ToyStore.PNG";
-import { device } from "../DeviceSizes/DeviceSizes";
+import styled from 'styled-components';
+import portfolioImg from '../../images/Projects/Portfolio2.PNG';
+import animalGame from '../../images/Projects/AnimalGame.PNG';
+import driveThru from '../../images/Projects/DriveThru.PNG';
+import worldTime from '../../images/Projects/WorldTime.PNG';
+import pizzaOrder from '../../images/Projects/PizzaOrder.PNG';
+import DevMeetUp from '../../images/Projects/DevMeetUp.PNG';
+import { device } from '../DeviceSizes/DeviceSizes';
 
 export const ProjectsContainer = styled.div`
   z-index: 100;
@@ -44,7 +44,7 @@ export const ProjectsWrapper = styled.div`
 `;
 export const ProjectsH1 = styled.h1`
   font-size: 36px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
 
   @media ${device.tablet} {
     font-size: 2rem;
@@ -97,7 +97,7 @@ export const ProjectInfo = styled.span`
 export const ProjectH1 = styled.h1`
   font-size: 30px;
   color: #000;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
 `;
 export const ProjectP = styled.p`
@@ -105,8 +105,15 @@ export const ProjectP = styled.p`
   color: #00b793;
   margin-top: 3px;
   font-weight: normal;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 `;
+
+export const ProjectButtons = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const ProjectButton = styled.a`
   height: 30px;
   width: 110px;
@@ -120,7 +127,6 @@ export const ProjectButton = styled.a`
   background-color: #fff;
   cursor: pointer;
   font-size: 0.8rem;
-  text-decoration: none;
 
   &:hover {
     background-color: #7510f7;
@@ -171,7 +177,7 @@ export const Project6Background = styled.div`
   width: 100%;
   height: 100%;
   background-color: black;
-  background: url(${toyStore}) 100% / cover no-repeat;
+  background: url(${DevMeetUp}) 100% / cover no-repeat;
   background-position: center;
   background-size: cover;
 `;
