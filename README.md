@@ -1,3 +1,30 @@
+                             ⚡️ Personal Portfolio ⚡️
+
+A clean, beautiful, responsive portfolio that I have made during this summer 2021 using ReactJS and Styled Components! 
+
+Watch it live here: https://namnguyen31.netlify.app
+
+Tech I've used in this project:
+
+  > JavaScript (ES6)
+
+  > ReactJS/React icons
+
+  > React hooks
+
+  > Firebase
+ 
+  > Styled Component
+
+  > Material UI
+
+  > AOS library for animation
+
+
+![image](https://user-images.githubusercontent.com/66233296/128682522-49730d8b-cbdd-42a0-b83f-ed46c15b4e98.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
