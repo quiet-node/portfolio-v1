@@ -23,6 +23,17 @@ Tech I've used in this project:
 
 ![image](https://user-images.githubusercontent.com/66233296/128682522-49730d8b-cbdd-42a0-b83f-ed46c15b4e98.png)
 
+![image](https://user-images.githubusercontent.com/66233296/128818109-9152471d-74df-4c8b-9183-dfd225c87b41.png)
+
+![image](https://user-images.githubusercontent.com/66233296/128818139-8ce4742c-15ff-410b-8475-d45fe2a4a674.png)
+
+![image](https://user-images.githubusercontent.com/66233296/128818246-7389e0d7-917f-4791-9169-932cd5495892.png)
+
+![image](https://user-images.githubusercontent.com/66233296/128818278-df5e4104-a0b3-4563-8d0a-6f3ef72b6d8e.png)
+
+![image](https://user-images.githubusercontent.com/66233296/128818305-dbcbcbda-b7a9-41ac-b744-a4d7ed83fdef.png)
+
+
 
 
 # Getting Started with Create React App
