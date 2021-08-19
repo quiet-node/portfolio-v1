@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 @media screen and (min-width: 769px) {
-  @keyframes HTMLAnimation {
+  @keyframes JSAnimation {
     from {
       width: 0;
     }
@@ -10,12 +10,20 @@
     }
   }
 
+  @keyframes HTMLAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(320px * 0.85);
+    }
+  }
   @keyframes CSSAnimation {
     from {
       width: 0;
     }
     to {
-      width: calc(320px * 0.9);
+      width: calc(320px * 0.85);
     }
   }
   @keyframes ReactAnimation {
@@ -23,15 +31,7 @@
       width: 0;
     }
     to {
-      width: calc(320px * 0.6);
-    }
-  }
-  @keyframes JSAnimation {
-    from {
-      width: 0;
-    }
-    to {
-      width: calc(320px * 0.7);
+      width: calc(320px * 0.65);
     }
   }
 

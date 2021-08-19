@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { device } from "../DeviceSizes/DeviceSizes";
+import styled from 'styled-components';
+import { device } from '../DeviceSizes/DeviceSizes';
 
 export const SkillsContainer = styled.div`
   position: relative;
@@ -42,7 +42,7 @@ export const SkillsWrapper = styled.div`
 export const SkillsH1 = styled.h1`
   position: reletave;
   font-size: 36px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
 
   @media ${device.mobileL} {
     font-size: 1.8rem;
@@ -128,7 +128,7 @@ export const SkillsBarHeadline = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   @media ${device.tablet} {
     font-size: 15px;
     width: 60px;

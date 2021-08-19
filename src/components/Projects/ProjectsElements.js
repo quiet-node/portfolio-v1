@@ -4,7 +4,7 @@ import animalGame from '../../images/Projects/AnimalGame.PNG';
 import driveThru from '../../images/Projects/DriveThru.PNG';
 import worldTime from '../../images/Projects/WorldTime.PNG';
 import pizzaOrder from '../../images/Projects/PizzaOrder.PNG';
-import DevMeetUp from '../../images/Projects/DevMeetUp.PNG';
+import DevMeetUp from '../../images/Projects/DevMeetUp.png';
 import { device } from '../DeviceSizes/DeviceSizes';
 
 export const ProjectsContainer = styled.div`
