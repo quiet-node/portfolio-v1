@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import { Link } from "react-scroll";
-import { device } from "../DeviceSizes/DeviceSizes";
+import styled from 'styled-components';
+import { Link } from 'react-scroll';
+import { device } from '../DeviceSizes/DeviceSizes';
 
 export const FooterContainer = styled.div`
   position: relative;
@@ -38,7 +38,8 @@ export const FooterBox = styled.div`
 export const FooterH1 = styled.h1`
   position: absolute;
   top: 20px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 3px 3px rgb(50, 50, 70, 1);
 
   @media ${device.tablet} {
     font-size: 2rem;
@@ -63,7 +64,8 @@ export const FooterButton = styled(Link)`
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 2px 2px rgb(50, 50, 70, 0.5);
 
   &:hover {
     background-color: #7510f7;
@@ -82,7 +84,8 @@ export const FooterQuote = styled.div`
   bottom: 25px;
   font-size: 20px;
   color: #9e85b7;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1.2px 1.2px rgb(50, 50, 70, 0.2);
 
   @media ${device.tablet} {
     font-size: 1.3rem;
@@ -113,7 +116,7 @@ export const Footerimg = styled.a`
 export const FooterSpan = styled.span`
   font-weight: bold;
   color: #00b793;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   &:hover {
     color: #7510f7;
@@ -142,7 +145,8 @@ export const FooterLast = styled.div`
   bottom: -68px;
   font-weight: bold;
   color: #9e85b7;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
+  text-shadow: 1.2px 1.2px rgb(50, 50, 70, 0.2);
 
   @media ${device.mobileL} {
     bottom: -50px;
@@ -151,5 +155,5 @@ export const FooterLast = styled.div`
 export const LastSpan = styled.span`
   font-weight: bold;
   color: #00b793;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
 `;

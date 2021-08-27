@@ -43,6 +43,7 @@ export const SkillsH1 = styled.h1`
   position: reletave;
   font-size: 36px;
   font-family: 'Rubik', sans-serif;
+  text-shadow: 2px 2px rgb(50, 50, 70, 0.5);
 
   @media ${device.mobileL} {
     font-size: 1.8rem;
@@ -129,6 +130,8 @@ export const SkillsBarHeadline = styled.div`
   justify-content: center;
   align-items: center;
   font-family: 'Rubik', sans-serif;
+  text-shadow: 3px 3px rgb(50, 50, 70, 0.5);
+
   @media ${device.tablet} {
     font-size: 15px;
     width: 60px;
@@ -165,6 +168,7 @@ export const SkillsBarPercent = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 1.5px 1.5px rgb(50, 50, 70, 0.2);
 
   @media ${device.tablet} {
     font-size: 15px;

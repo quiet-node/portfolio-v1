@@ -4,7 +4,7 @@ import animalGame from '../../images/Projects/AnimalGame.PNG';
 import driveThru from '../../images/Projects/DriveThru.PNG';
 import worldTime from '../../images/Projects/WorldTime.PNG';
 import pizzaOrder from '../../images/Projects/PizzaOrder.PNG';
-import DevMeetUp from '../../images/Projects/DevMeetUp.png';
+import DevMeetUp from '../../images/Projects/DevMeetUp.PNG';
 import { device } from '../DeviceSizes/DeviceSizes';
 
 export const ProjectsContainer = styled.div`
@@ -45,6 +45,7 @@ export const ProjectsWrapper = styled.div`
 export const ProjectsH1 = styled.h1`
   font-size: 36px;
   font-family: 'Rubik', sans-serif;
+  text-shadow: 4px 4px rgb(50, 50, 70, 0.5);
 
   @media ${device.tablet} {
     font-size: 2rem;
@@ -99,13 +100,16 @@ export const ProjectH1 = styled.h1`
   color: #000;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
+  text-shadow: 3px 3px rgb(50, 50, 70, 0.2);
 `;
 export const ProjectP = styled.p`
   font-size: 17px;
   color: #00b793;
   margin-top: 3px;
   font-weight: normal;
+  font-style: italic;
   font-family: 'Ubuntu', sans-serif;
+  text-shadow: 2px 2px rgb(50, 50, 70, 0.2);
 `;
 
 export const ProjectButtons = styled.div`

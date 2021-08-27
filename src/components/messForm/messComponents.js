@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { device } from "../DeviceSizes/DeviceSizes";
+import styled from 'styled-components';
+import { device } from '../DeviceSizes/DeviceSizes';
 
 export const MessFormContainer = styled.form`
   height: 100vh;
@@ -16,8 +16,9 @@ export const MessFormContent = styled.div`
 export const MessFormH1 = styled.h1`
   position: reletave;
   font-size: 36px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: #7510f7;
+  text-shadow: 2px 2px rgb(50, 50, 70, 0.5);
 
   @media ${device.tablet} {
     font-size: 33px;
@@ -78,7 +79,7 @@ export const FormButton = styled.button`
   cursor: pointer;
   transition: 0.2s ease-in-out;
   margin-top: -30px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   border-radius: 10px;
 
   @media ${device.tablet} {

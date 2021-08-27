@@ -22,6 +22,8 @@ export const AboutH1 = styled.h1`
   position: reletave;
   font-size: 36px;
   font-family: 'Rubik', sans-serif;
+  text-shadow: 4px 4px rgb(50, 50, 70, 0.5);
+
   @media ${device.tablet} {
     font-size: 33px;
   }
@@ -39,6 +41,7 @@ export const AboutP = styled.p`
   max-width: 600px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
+  text-shadow: 3px 3px rgb(50, 50, 70, 0.5);
 
   @media ${device.tablet} {
     margin-top: 6%;

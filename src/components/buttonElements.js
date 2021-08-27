@@ -9,7 +9,7 @@ export const Button = styled(Link)`
   font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
   outline: none;
   border: 1px solid #7510f7;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -17,6 +17,7 @@ export const Button = styled(Link)`
   transition: all 0.3s ease-in-out;
   text-decoration: none;
   font-family: 'Ubuntu', sans-serif;
+  border-radius: 5px;
 
   &:hover {
     transition: all 0.3s ease-in-out;
