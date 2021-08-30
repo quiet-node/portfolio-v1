@@ -11,7 +11,7 @@ export const ProjectsContainer = styled.div`
   z-index: 100;
   color: #fff;
   position: relative;
-  height: 100vh;
+  height: 1000px;
   margin-top: -190px;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@ export const ProjectsWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  background: #7510f7;
   height: 1000px;
 
   @media ${device.tablet} {
@@ -43,10 +43,9 @@ export const ProjectsWrapper = styled.div`
   }
 `;
 export const ProjectsH1 = styled.h1`
-  color: #7510f7;
   font-size: 36px;
   font-family: 'Rubik', sans-serif;
-  text-shadow: 2px 2px rgb(50, 50, 70, 0.5);
+  text-shadow: 4px 4px rgb(50, 50, 70, 0.5);
 
   @media ${device.tablet} {
     font-size: 2rem;

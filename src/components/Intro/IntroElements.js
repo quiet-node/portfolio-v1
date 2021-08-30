@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { MdArrowDownward } from 'react-icons/md';
+import { IoIosArrowDown } from 'react-icons/io';
 
 export const IntroContainer = styled.div`
   z-index: 3;
@@ -30,8 +32,8 @@ export const IntroSpan = styled.span`
 `;
 
 export const IntroP = styled.p`
-  color: #00b793;
-  margin-top: 30px;
+  color: #7510f7;
+  margin-top: 5px;
   font-size: 20px;
   text-align: center;
   max-width: 600px;
@@ -49,8 +51,21 @@ export const IntroP = styled.p`
 `;
 
 export const IntroBtnWrapper = styled.div`
-  margin-top: 100px;
+  margin-top: 25px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
+`;
+export const ArrowDown = styled(IoIosArrowDown)`
+  margin-left: 4px;
+  font-size: 18px;
+`;
+export const ArrowDownward = styled(MdArrowDownward)`
+  margin-left: 4px;
+  font-size: 18px;
+`;
+
+export const ImgWrapper = styled.div`
+  position: relative;
+  top: 150px;
 `;
