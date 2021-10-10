@@ -67,14 +67,14 @@ const Projects = () => {
           <Project data-aos='fade-up' data-offset='1500' data-aos-delay='500'>
             <Project1Background></Project1Background>
             <ProjectInfo>
-              <ProjectH1>Old Portfolio</ProjectH1>
-              <ProjectP> HTML / CSS </ProjectP>
+              <ProjectH1>Tic Tac Toe</ProjectH1>
+              <ProjectP> TypeScript/NextJs </ProjectP>
               <ProjectButtons>
-                <ProjectButton href='https://demooldportfolio.netlify.app/'>
+                <ProjectButton href='https://tictactoe2304.netlify.app/'>
                   {' '}
                   Live
                 </ProjectButton>
-                <ProjectButton href='https://github.com/lgad31vn/WebDev-OldPortfolio'>
+                <ProjectButton href='https://github.com/lgad31vn/tic-tac-toe-next-ts'>
                   {' '}
                   GitHub{' '}
                 </ProjectButton>

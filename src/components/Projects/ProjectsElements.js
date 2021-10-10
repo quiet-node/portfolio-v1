@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import portfolioImg from '../../images/Projects/Portfolio2.PNG';
+import tictactoe from '../../images/Projects/tictactoe.PNG';
 import animalGame from '../../images/Projects/AnimalGame.PNG';
 import driveThru from '../../images/Projects/DriveThru.PNG';
 import worldTime from '../../images/Projects/WorldTime.PNG';
@@ -141,7 +141,7 @@ export const Project1Background = styled.div`
   width: 100%;
   height: 100%;
   background-color: black;
-  background: url(${portfolioImg}) 100% / cover no-repeat;
+  background: url(${tictactoe}) 100% / cover no-repeat;
   background-position: center;
   background-size: cover;
 `;
