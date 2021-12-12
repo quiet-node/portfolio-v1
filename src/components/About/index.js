@@ -26,6 +26,7 @@ const About = ({ horiW, horiH }) => {
           horiW="true"
           horiH="true"
         />
+
         <AboutP data-aos="fade-right" data-aos-offset="300">
           {" "}
           An avid lover of technology who is always passionate about researching

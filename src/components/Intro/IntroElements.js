@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { MdArrowDownward } from 'react-icons/md';
-import { IoIosArrowDown } from 'react-icons/io';
+import styled from "styled-components";
+import { MdArrowDownward } from "react-icons/md";
+import { IoIosArrowDown } from "react-icons/io";
 
 export const IntroContainer = styled.div`
   z-index: 3;
@@ -16,7 +16,7 @@ export const IntroH1 = styled.h1`
   color: #7510f7;
   font-size: 40px;
   text-align: center;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   text-shadow: 4px 4px rgb(50, 50, 70, 0.2);
 
   @media screen and (max-width: 768px) {
@@ -39,7 +39,7 @@ export const IntroP = styled.p`
   max-width: 600px;
   font-style: italic;
   font-weight: 300;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   text-shadow: 1.5px 1.5px rgb(50, 50, 70, 0.2);
 
   @media screen and (max-width: 768px) {

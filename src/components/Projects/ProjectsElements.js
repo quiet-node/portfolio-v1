@@ -1,11 +1,11 @@
-import styled from 'styled-components';
-import tictactoe from '../../images/Projects/tictactoe.PNG';
-import animalGame from '../../images/Projects/AnimalGame.PNG';
-import driveThru from '../../images/Projects/DriveThru.PNG';
-import worldTime from '../../images/Projects/WorldTime.PNG';
-import pizzaOrder from '../../images/Projects/PizzaOrder.PNG';
-import DevMeetUp from '../../images/Projects/DevMeetUp.PNG';
-import { device } from '../DeviceSizes/DeviceSizes';
+import styled from "styled-components";
+import tictactoe from "../../images/Projects/tictactoe.PNG";
+import animalGame from "../../images/Projects/AnimalGame.PNG";
+import CST from "../../images/Projects/CST.PNG";
+import worldTime from "../../images/Projects/WorldTime.PNG";
+import pizzaOrder from "../../images/Projects/PizzaOrder.PNG";
+import DevMeetUp from "../../images/Projects/DevMeetUp.PNG";
+import { device } from "../DeviceSizes/DeviceSizes";
 
 export const ProjectsContainer = styled.div`
   z-index: 100;
@@ -44,7 +44,7 @@ export const ProjectsWrapper = styled.div`
 `;
 export const ProjectsH1 = styled.h1`
   font-size: 36px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   text-shadow: 4px 4px rgb(50, 50, 70, 0.5);
 
   @media ${device.tablet} {
@@ -98,7 +98,7 @@ export const ProjectInfo = styled.span`
 export const ProjectH1 = styled.h1`
   font-size: 30px;
   color: #000;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
   text-shadow: 3px 3px rgb(50, 50, 70, 0.2);
 `;
@@ -108,7 +108,7 @@ export const ProjectP = styled.p`
   margin-top: 3px;
   font-weight: normal;
   font-style: italic;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   text-shadow: 2px 2px rgb(50, 50, 70, 0.2);
 `;
 
@@ -157,7 +157,7 @@ export const Project3Background = styled.div`
   width: 100%;
   height: 100%;
   background-color: black;
-  background: url(${driveThru}) 100% / cover no-repeat;
+  background: url(${CST}) 100% / cover no-repeat;
   background-position: center;
   background-size: cover;
 `;
