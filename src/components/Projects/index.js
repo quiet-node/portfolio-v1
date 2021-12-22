@@ -39,7 +39,7 @@ const Projects = () => {
             <Project3Background></Project3Background>
             <ProjectInfo>
               <ProjectH1>Crowd-Sourced Transcribe</ProjectH1>
-              <ProjectP> HTML / CSS / JS</ProjectP>
+              <ProjectP> LAMP stack </ProjectP>
               <ProjectButtons>
                 <ProjectButton href="http://3.134.136.76/omeka-s/s/oswego-transcribe/page/welcome">
                   {" "}
