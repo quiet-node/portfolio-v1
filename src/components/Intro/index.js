@@ -26,7 +26,11 @@ const Intro = () => {
   return (
     <IntroContainer id='intro'>
       <IntroH1 data-aos='fade-down'>
-        Howdy, <spann>👋</spann> It's <IntroSpan>Logan</IntroSpan> ;)
+        Howdy,{' '}
+        <spann role='img' aria-label='information'>
+          👋
+        </spann>{' '}
+        It's <IntroSpan>Logan</IntroSpan> ;)
       </IntroH1>
       <IntroP data-aos='fade-right' data-aos-delay='400'>
         Senior Comp. Sci. Student at <IntroSpan>SUNY Oswego</IntroSpan>
