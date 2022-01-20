@@ -3,6 +3,7 @@ import { Button } from '../buttonElements';
 import { ReactComponent as IntroPic } from '../../images/introPic.svg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Emoji from '../Emojis';
 import {
   IntroContainer,
   IntroH1,
@@ -26,11 +27,9 @@ const Intro = () => {
   return (
     <IntroContainer id='intro'>
       <IntroH1 data-aos='fade-down'>
-        Howdy,{' '}
-        <spann role='img' aria-label='information'>
-          👋
-        </spann>{' '}
-        It's <IntroSpan>Logan</IntroSpan> ;)
+        Howdy,
+        <Emoji symbol='👋' label='waving' /> It's <IntroSpan>Logan</IntroSpan>{' '}
+        ;)
       </IntroH1>
       <IntroP data-aos='fade-right' data-aos-delay='400'>
         Senior Comp. Sci. Student at <IntroSpan>SUNY Oswego</IntroSpan>
