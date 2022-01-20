@@ -26,10 +26,10 @@ const Intro = () => {
   return (
     <IntroContainer id='intro'>
       <IntroH1 data-aos='fade-down'>
-        Howdy! It's <IntroSpan>Logan</IntroSpan> ;)
+        Howdy 👋 It's <IntroSpan>Logan</IntroSpan> ;)
       </IntroH1>
       <IntroP data-aos='fade-right' data-aos-delay='400'>
-        Senior Comp. Sci. Student at <IntroSpan>SUNY Oswego</IntroSpan>
+        Senior CS Student at <IntroSpan>SUNY Oswego</IntroSpan>
       </IntroP>
       <IntroBtnWrapper data-aos='fade-up' data-aos-delay='500'>
         <Button
