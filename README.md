@@ -3,6 +3,7 @@
 A clean, beautiful, responsive portfolio that I have made during this summer 2021 using ReactJS and Styled Components! 
 
 Check it live here: https://namnguyen31.netlify.app
+Newly migrate to the new doamin: https://namnguyen31.com
 
 Tech I've used in this project:
 
