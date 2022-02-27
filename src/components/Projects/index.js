@@ -35,25 +35,8 @@ const Projects = () => {
         <Divider data-aos='fade-left' data-offset='400' data-aos-delay='300' />
         <ProjectsRow>
           {/* start projects section */}
-          <Project data-aos='fade-up' data-offset='1500' data-aos-delay='250'>
-            <Project3Background></Project3Background>
-            <ProjectInfo>
-              <ProjectH1>Crowd-Sourced Transcribe</ProjectH1>
-              <ProjectP> LAMP stack </ProjectP>
-              <ProjectButtons>
-                <ProjectButton href='http://3.134.136.76/omeka-s/s/oswego-transcribe/page/welcome'>
-                  {' '}
-                  Live{' '}
-                </ProjectButton>
-                <ProjectButton href='https://github.com/CSC380-Team-F'>
-                  {' '}
-                  GitHub{' '}
-                </ProjectButton>
-              </ProjectButtons>
-            </ProjectInfo>
-          </Project>
 
-          <Project data-aos='fade-up' data-offset='1500' data-aos-delay='350'>
+          <Project data-aos='fade-up' data-offset='1500' data-aos-delay='250'>
             <Project2Background></Project2Background>
             <ProjectInfo>
               <ProjectH1>Hashtology Dapp</ProjectH1>
@@ -62,6 +45,20 @@ const Projects = () => {
                 <ProjectButton href='https://github.com/lgad31vn/Hashtology-dapp'>
                   {' '}
                   GitHub{' '}
+                </ProjectButton>
+              </ProjectButtons>
+            </ProjectInfo>
+          </Project>
+
+          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='350'>
+            <Project5Background></Project5Background>
+            <ProjectInfo>
+              <ProjectH1>Search Engine App</ProjectH1>
+              <ProjectP> Springboot|React|Typescript</ProjectP>
+              <ProjectButtons>
+                <ProjectButton href='https://github.com/lgad31vn/CSC-365-fullstack-app/blob/master/README.md'>
+                  {' '}
+                  GitHub
                 </ProjectButton>
               </ProjectButtons>
             </ProjectInfo>
@@ -103,7 +100,25 @@ const Projects = () => {
             </ProjectInfo>
           </Project>
 
-          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='650'>
+          <Project data-aos='fade-up' data-offset='1500' data-aos-delay='650'>
+            <Project3Background></Project3Background>
+            <ProjectInfo>
+              <ProjectH1>Crowd-Sourced Transcribe</ProjectH1>
+              <ProjectP> LAMP stack </ProjectP>
+              <ProjectButtons>
+                <ProjectButton href='http://3.134.136.76/omeka-s/s/oswego-transcribe/page/welcome'>
+                  {' '}
+                  Live{' '}
+                </ProjectButton>
+                <ProjectButton href='https://github.com/CSC380-Team-F'>
+                  {' '}
+                  GitHub{' '}
+                </ProjectButton>
+              </ProjectButtons>
+            </ProjectInfo>
+          </Project>
+
+          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='750'>
             <Project4Background></Project4Background>
             <ProjectInfo>
               <ProjectH1>World Time App</ProjectH1>
@@ -112,24 +127,6 @@ const Projects = () => {
                 {' '}
                 GitHub{' '}
               </ProjectButton>
-            </ProjectInfo>
-          </Project>
-
-          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='750'>
-            <Project5Background></Project5Background>
-            <ProjectInfo>
-              <ProjectH1>Pizza Ordering</ProjectH1>
-              <ProjectP> HTML / CSS / JS</ProjectP>
-              <ProjectButtons>
-                <ProjectButton href='https://pizzaordering.netlify.app'>
-                  {' '}
-                  Live{' '}
-                </ProjectButton>
-                <ProjectButton href='https://github.com/lgad31vn/JS-pizzaOrderForm'>
-                  {' '}
-                  GitHub
-                </ProjectButton>
-              </ProjectButtons>
             </ProjectInfo>
           </Project>
         </ProjectsRow>
