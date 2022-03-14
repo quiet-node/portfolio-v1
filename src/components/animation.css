@@ -2,15 +2,7 @@
 
 @media screen and (min-width: 769px) {
   @keyframes JSAnimation {
-    from {
-      width: 0;
-    }
-    to {
-      width: calc(320px * 0.9);
-    }
-  }
-
-  @keyframes HTMLAnimation {
+    /* now Java */
     from {
       width: 0;
     }
@@ -18,7 +10,18 @@
       width: calc(320px * 0.85);
     }
   }
+
+  @keyframes HTMLAnimation {
+    /* now Spring */
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(320px * 0.75);
+    }
+  }
   @keyframes CSSAnimation {
+    /* now React */
     from {
       width: 0;
     }
@@ -27,28 +30,31 @@
     }
   }
   @keyframes ReactAnimation {
+    /* now JS/TS */
     from {
       width: 0;
     }
     to {
-      width: calc(320px * 0.65);
+      width: calc(320px * 0.9);
     }
   }
 
   @keyframes JavaAnimation {
+    /* now C/C++ */
     from {
       width: 0;
     }
     to {
-      width: calc(320px * 0.65);
+      width: calc(320px * 0.75);
     }
   }
   @keyframes FlutterAnimation {
+    /* now Solidity */
     from {
       width: 0;
     }
     to {
-      width: calc(320px * 0.55);
+      width: calc(320px * 0.6);
     }
   }
 }
