@@ -53,10 +53,10 @@ const Projects = () => {
           <Project data-aos='fade-up' data-offset='1400' data-aos-delay='350'>
             <Project5Background></Project5Background>
             <ProjectInfo>
-              <ProjectH1>Search Engine App</ProjectH1>
+              <ProjectH1>Full-stack Yelp App</ProjectH1>
               <ProjectP> Springboot|React|Typescript</ProjectP>
               <ProjectButtons>
-                <ProjectButton href='https://github.com/lgad31vn/CSC-365-fullstack-app/blob/master/README.md'>
+                <ProjectButton href='https://github.com/lgad31vn/CSC-365-fullstack-app-II'>
                   {' '}
                   GitHub
                 </ProjectButton>
