@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import tictactoe from '../../images/Projects/tictactoe.PNG';
 import hashtology from '../../images/Projects/Hashtology.png';
-import CST from '../../images/Projects/CST.PNG';
+import CPR from '../../images/Projects/CPR.png';
 import worldTime from '../../images/Projects/WorldTime.PNG';
 import yealpApp from '../../images/Projects/yelp-app.png';
 import DevMeetUp from '../../images/Projects/DevMeetUp.PNG';
@@ -157,7 +157,7 @@ export const Project3Background = styled.div`
   width: 100%;
   height: 100%;
   background-color: black;
-  background: url(${CST}) 100% / cover no-repeat;
+  background: url(${CPR}) 100% / cover no-repeat;
   background-position: center;
   background-size: cover;
 `;

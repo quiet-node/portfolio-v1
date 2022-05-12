@@ -37,12 +37,16 @@ const Projects = () => {
           {/* start projects section */}
 
           <Project data-aos='fade-up' data-offset='1500' data-aos-delay='250'>
-            <Project2Background></Project2Background>
+            <Project3Background></Project3Background>
             <ProjectInfo>
-              <ProjectH1>Hashtology Dapp</ProjectH1>
-              <ProjectP> Blockchain|React|Typescript</ProjectP>
+              <ProjectH1>Calibrated Peer Review</ProjectH1>
+              <ProjectP> Open-Liberty|React </ProjectP>
               <ProjectButtons>
-                <ProjectButton href='https://github.com/lgad31vn/Hashtology-dapp'>
+                <ProjectButton href='http://moxie.cs.oswego.edu:13125'>
+                  {' '}
+                  Live{' '}
+                </ProjectButton>
+                <ProjectButton href='https://github.com/tenbergen/CSC480-22S'>
                   {' '}
                   GitHub{' '}
                 </ProjectButton>
@@ -64,7 +68,21 @@ const Projects = () => {
             </ProjectInfo>
           </Project>
 
-          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='450'>
+          <Project data-aos='fade-up' data-offset='1500' data-aos-delay='450'>
+            <Project2Background></Project2Background>
+            <ProjectInfo>
+              <ProjectH1>Hashtology Dapp</ProjectH1>
+              <ProjectP> Blockchain|React|Typescript</ProjectP>
+              <ProjectButtons>
+                <ProjectButton href='https://github.com/lgad31vn/Hashtology-dapp'>
+                  {' '}
+                  GitHub{' '}
+                </ProjectButton>
+              </ProjectButtons>
+            </ProjectInfo>
+          </Project>
+
+          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='550'>
             <Project6Background></Project6Background>
             <ProjectInfo>
               <ProjectH1>Dev Meet Up</ProjectH1>
@@ -82,7 +100,7 @@ const Projects = () => {
             </ProjectInfo>
           </Project>
 
-          <Project data-aos='fade-up' data-offset='1500' data-aos-delay='550'>
+          <Project data-aos='fade-up' data-offset='1500' data-aos-delay='650'>
             <Project1Background></Project1Background>
             <ProjectInfo>
               <ProjectH1>Tic Tac Toe</ProjectH1>
@@ -93,24 +111,6 @@ const Projects = () => {
                   Live
                 </ProjectButton>
                 <ProjectButton href='https://github.com/lgad31vn/tic-tac-toe-next-ts'>
-                  {' '}
-                  GitHub{' '}
-                </ProjectButton>
-              </ProjectButtons>
-            </ProjectInfo>
-          </Project>
-
-          <Project data-aos='fade-up' data-offset='1500' data-aos-delay='650'>
-            <Project3Background></Project3Background>
-            <ProjectInfo>
-              <ProjectH1>Crowd-Sourced Transcribe</ProjectH1>
-              <ProjectP> LAMP stack </ProjectP>
-              <ProjectButtons>
-                <ProjectButton href='http://3.134.136.76/omeka-s/s/oswego-transcribe/page/welcome'>
-                  {' '}
-                  Live{' '}
-                </ProjectButton>
-                <ProjectButton href='https://github.com/CSC380-Team-F'>
                   {' '}
                   GitHub{' '}
                 </ProjectButton>
