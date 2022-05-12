@@ -3,7 +3,7 @@ import tictactoe from '../../images/Projects/tictactoe.PNG';
 import hashtology from '../../images/Projects/Hashtology.png';
 import CST from '../../images/Projects/CST.PNG';
 import worldTime from '../../images/Projects/WorldTime.PNG';
-import searchEngine from '../../images/Projects/SearchEngine.png';
+import yealpApp from '../../images/Projects/yelp-app.png';
 import DevMeetUp from '../../images/Projects/DevMeetUp.PNG';
 import { device } from '../DeviceSizes/DeviceSizes';
 
@@ -173,7 +173,7 @@ export const Project5Background = styled.div`
   width: 100%;
   height: 100%;
   background-color: black;
-  background: url(${searchEngine}) 100% / cover no-repeat;
+  background: url(${yealpApp}) 100% / cover no-repeat;
   background-position: center;
   background-size: cover;
 `;

@@ -56,9 +56,9 @@ const Projects = () => {
               <ProjectH1>Full-stack Yelp App</ProjectH1>
               <ProjectP> Springboot|React|Typescript</ProjectP>
               <ProjectButtons>
-                <ProjectButton href='https://github.com/lgad31vn/CSC-365-fullstack-app-II'>
+                <ProjectButton href='https://github.com/lgad31vn/CSC-365-fullstack-app-III#react-d3-graph-showcase'>
                   {' '}
-                  GitHub
+                  Demo
                 </ProjectButton>
               </ProjectButtons>
             </ProjectInfo>
