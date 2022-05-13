@@ -36,8 +36,6 @@ Tech I've used in this project:
 ![image](https://user-images.githubusercontent.com/66233296/128818305-dbcbcbda-b7a9-41ac-b744-a4d7ed83fdef.png)
 
 
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
