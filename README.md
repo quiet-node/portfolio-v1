@@ -1,6 +1,6 @@
                              ⚡️ Personal Portfolio ⚡️
 
-A clean, beautiful, responsive portfolio that I have made during this summer 2021 using ReactJS and Styled Components! 
+A clean and responsive portfolio that I have made during the summer of 2021
 
 Live: https://namnguyen31.com
 
