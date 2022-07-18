@@ -4,21 +4,19 @@ A clean, beautiful, responsive portfolio that I have made during this summer 202
 
 Live: https://namnguyen31.com
 
-Tech I've used in this project:
+Techonologies:
 
-  > JavaScript (ES6)
+  - JavaScript (ES6)
 
-  > ReactJS/React icons
+  - React/React icons
 
-  > React hooks
-
-  > Firebase
+  - Firebase
  
-  > Styled Component
+  - Styled Component
 
-  > Material UI
+  - Material UI
 
-  > AOS library for animation
+  - AOS library for animation
 
 
 ![image](https://user-images.githubusercontent.com/66233296/128682522-49730d8b-cbdd-42a0-b83f-ed46c15b4e98.png)
