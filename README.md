@@ -1,8 +1,10 @@
                              ⚡️ Personal Portfolio ⚡️
 
-Hey there and welcome to my Portfolio! I'm a full-stack web 3.0 software developer and a blockchain smart contract enthusiast.
+A clean and responsive portfolio that I have made during the summer of 2021. 
 
-In this repository, you'll find some of my latest projects and contributions to the open-source community. From web applications to blockchain-based solutions, I'm always excited to explore new technologies and push the limits of what's possible. So feel free to have a look around, check out my code, and let me know if you have any questions or suggestions.
+A new updated version of my portfolio can be found here: 
+  - [quiet-node-v2 Live](https://quiet-node.vercel.app)
+  - [quiet-node-v2 Gitrhub Repository](https://github.com/quiet-node/portfolio-v2) 
 
 Cheers!
 
