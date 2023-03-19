@@ -4,7 +4,7 @@ A clean and responsive portfolio that I have made during the summer of 2021.
 
 A new updated version of my portfolio can be found here: 
   - [quiet-node-v2 Live](https://quiet-node.vercel.app)
-  - [quiet-node-v2 Gitrhub Repository](https://github.com/quiet-node/portfolio-v2) 
+  - [quiet-node-v2 Github Repository](https://github.com/quiet-node/portfolio-v2) 
 
 Cheers!
 
